@@ -2,7 +2,7 @@ const signup = () => {
 	const signupBtn = document.querySelector(".actionBtn");
 				
 	signupBtn.addEventListener("click", ()=>{
-		window.location.href = "login.html";
+		window.location.href = "login.jsx";
 	})
 	return(
 		<div>

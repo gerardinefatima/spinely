@@ -1,7 +1,7 @@
 const yourPostures = () => {
   function handleSettingsChange(value) {
     if (value === "update") {
-      location.href = "calibrate.html";
+      location.href = "calibrate.jsx";
     } else if (value === "delete") {
       // Handle delete functionality
     }
@@ -31,8 +31,8 @@ const yourPostures = () => {
             {/* ADD MORE SESSION ITEMS HERE */}
           </div>
 
-          <button class="add-new-button" onclick="location.href='calibration.html'">Add New Posture</button>
-          <button class="back-home-button" onclick="location.href='dashboard.html'">Back to Dashboard</button>
+          <button class="add-new-button" onclick="location.href='calibration.jsx'">Add New Posture</button>
+          <button class="back-home-button" onclick="location.href='dashboard.jsx'">Back to Dashboard</button>
         </body>
     </div>
   )
