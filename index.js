@@ -6,3 +6,4 @@ menuicn.addEventListener("click",()=>
 {
 	nav.classList.toggle("navclose");
 })
+
