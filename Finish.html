@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Finish</title>
+  <style>
+    body {
+      background-color: #F5F7FA;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    h1 {
+      color:#0e5cc9;
+    }
+    .done-text {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .small-text {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .action-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .action-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      background-color: #0e5cc9;
+      color: white;
+      cursor: pointer;
+    }
+    .see-results-button {
+     padding: 10px 20px;
+     font-size: 16px;
+     border-radius: 5px;
+     background-color: #0e5cc9;
+     color: white;
+    cursor: pointer;
+    }
+    .your-postures-button {
+     padding: 10px 20px;
+     font-size: 16px;
+     border-radius: 5px;
+     background-color: #0e5cc9;
+     color: white;
+    cursor: pointer;
+    }
+
+    
+  </style>
+</head>
+<body>
+
+  
+  <div class="done-text">Done!</div>
+  
+  <div class="small-text">See results</div>
+  
+  <div class="action-buttons">
+    <button class="see-results-button" onclick="location.href='calibrationresults.html'">See Results</button>
+    <button class="your-postures-button" onclick="location.href='YourPostures.html'">Your Postures</button>
+
+  </div>
+</body>
+<script>
+    // Add event listeners to the buttons
+    const seeResultsButton = document.getElementById('see-results-button');
+    seeResultsButton.addEventListener('click', function() {
+        window.location.href = 'CalibrationResults.html';
+    });
+
+    const yourPosturesButton = document.getElementById('your-postures-button');
+    yourPosturesButton.addEventListener('click', function() {
+      window.location.href = 'YourPostures.html';
+    });
+</script>
+</html>
